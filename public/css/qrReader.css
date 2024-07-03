@@ -1,0 +1,54 @@
+div > div#reader {
+    font-size: large;
+    color:snow;
+}
+
+#reader__dashboard_section_csr button {
+    width: auto!important;
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
+    color: snow;
+    background: rgb(62,226,255);
+    background: -moz-linear-gradient(90deg, rgb(154,8,215) 19%, rgba(22,30,55,0) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(154,8,215) 19%, rgba(22,30,55,0) 100%);
+    background: linear-gradient(90deg, rgb(154,8,215) 19%, rgba(22,30,55,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3ee2ff",endColorstr="#161e37",GradientType=1);
+    border: none;
+    border-radius: 15px;
+}
+
+#reader__dashboard_section_csr button:hover {
+    color: snow;
+    background-color: #861dc2;
+    box-shadow: 0 0 5px 2px #861dc2;
+    border: none;
+}
+
+div#reader > :first-child {
+    display: none;
+}
+
+#reader__camera_selection {
+    color: snow;
+    background-color: black;
+    border-radius: 0.2rem;
+    border: none;
+    border-bottom: 2px solid #39f6e4;
+}
+
+#reader__camera_selection:focus {
+    border-bottom: 2px solid #e23a87;
+}
+
+#reader__scan_region:has(video) {
+    background-image: none;
+}
+
+#reader__dashboard_section_swaplink {
+    display: none!important;
+}
+
+/* video {
+    width: 100%!important;
+    height: 100%;
+} */

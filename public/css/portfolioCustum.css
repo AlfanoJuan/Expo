@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap'); /*Títulos*/
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan&display=swap'); /*Campos, botones */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap'); /*List box, sidebad*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.card-proyect-portfolio
+{
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+    mix-blend-mode: luminosity;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: all 180ms ease-out;
+}
+
+.card-proyect-portfolio-text
+{
+    color: #5170ED;
+    text-align: center;
+    text-shadow: 0px 0px 13px #5170ED;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    left: 5%;
+    top: 85%;
+    z-index: 3 !important;
+    transition: all 180ms ease-out;
+}
+
+.card-subject-portfolio
+{
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    border: 1px solid rgba(81, 112, 237, 0.90);
+    background: rgba(217, 217, 217, 0.00);
+    box-shadow: 0px 0px 40px 2px  rgba(81, 112, 237, 0.3);
+    
+    transition: all 180ms ease-out;
+}
+
+.card-subject-shadow-text-portfolio
+{
+    width: 72px;
+    height: 3px;
+    flex-shrink: 0;
+    border: 1px solid rgba(81, 112, 237, 0.30);
+    background: rgba(217, 217, 217, 0.00);
+    box-shadow: 0px 0px 44px 10px rgba(81, 112, 237, 0.82);
+    filter: blur(7px);
+    position: absolute;
+    left: 5%;
+    top: 90%;
+    z-index: 4 !important;
+}
+
+.card-subject-port-container
+{
+    width: 512px;
+    cursor: pointer;
+    /*height: 512px;
+    position: absolute;
+    top: 3%;
+    left: 6%;
+    display: flex;
+    margin: 10px;*/
+}
+
+@media only screen and (max-width: 767px)
+{
+    .card-progra-text-portfolio, .card-arte-text-portfolio, .card-rv-text-portfolio, .card-vid-text-portfolio
+    {
+        font-size: 2.3rem;
+    }
+
+    .card-progra-text-portfolio:hover, .card-arte-text-portfolio:hover, .card-rv-text-portfolio:hover, .card-vid-text-portfolio:hover
+    {
+        font-size: 2.7rem;
+    }
+}
+
+.container-subjects
+{
+   
+    width: 80%;
+    height: 79%;
+    position: absolute;
+    top: 12%;
+    left: 50%; 
+    transform: translate(-50%, 0%);
+}
+
+tr
+{
+    height: 30%; 
+}
+
+td
+{
+    position: relative;
+    height: 0%;
+    
+}
+
+td:nth-child(2n+1) {
+    transform: translateX(27px); /* Mueve las celdas hacia la derecha */
+}
+
+td:nth-child(2n) {
+    transform: translateX(-27px); /* Mueve las celdas hacia la izquierda */
+}
+
+
+/*proyecto vista*/
+.img-proj-lmad
+{
+    width: 148.23px;
+    height: 78px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px)
+{
+    .space-btns, #img-lmad {
+        display: none;
+    }
+}
+
+.header-gif-expo-proj
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.18;
+    background: lightgray 50% / cover no-repeat;
+    mix-blend-mode: normal;
+    z-index: 0 !important;
+    object-fit: cover;
+    filter: blur(4px);
+}
+
+.title-name-project
+{
+    color: #FEFEFE;
+    text-align: center;
+    font-family: Bruno Ace;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.img-proj
+{
+    width: 160px;
+    height: 159px;
+    border-radius: 40px;
+    border: 1.5px solid #9958F5;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 0px 50px 4px rgba(153, 88, 245, 0.25);
+    margin-bottom: 15px;
+}
+
+.desc-proj
+{
+    color: #D2D2D2;
+    text-align: center;
+    font-family: Kodchasan;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.video-project
+{
+    border: 1.5px solid #368BE6;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 50px 4px rgba(54, 139, 230, 0.30);
+   /* width: 100%;
+    height: 100%; */
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+}
+
+.team-tittle-proj
+{
+    color: #F8F8F8;
+    text-align: center;
+    font-family: Bruno Ace;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.team-members-proj
+{
+    color: #D2D2D2;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hr-gradient-proj
+{
+    width: 75%;
+    height: 4px;
+    height: 3px;
+    flex-shrink: 0;
+    border-radius: 63px;
+    border: 0px;
+    background: linear-gradient(90deg, #00ebd400 0%, #00EBD2 48.96%, #00ebd400 100%);
+    z-index: 7 !important;
+    margin-top: 10px;
+}

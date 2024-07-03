@@ -1,0 +1,137 @@
+.carouselContainer{
+    /* height: 24em !important; */
+    /* outline: 1px solid red; */
+}
+.eventCard{
+    position: relative;
+    /* width: 250px;
+    height: 300px; */
+    /* margin-left: 100px; */
+    padding: 20px 5px;
+}
+.eventCard img{
+    position: absolute;
+    left: 0;
+    top: 5;
+    z-index: 0;
+}
+.eventCard a{
+    z-index: 5;
+}
+.eventInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eventInfo span{
+    font-size: 1em;
+    text-align: justify;
+    letter-spacing: 0px;
+}
+.eventCard h5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 90px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    background: rgb(167,82,202);
+    background: rgb(167,82,202);
+    background: -moz-linear-gradient(33deg, rgba(167,82,202,1) 44%, rgba(24,228,237,1) 84%);
+    background: -webkit-linear-gradient(33deg, rgba(167,82,202,1) 44%, rgba(24,228,237,1) 84%);
+    background: linear-gradient(33deg, rgba(167,82,202,1) 44%, rgba(24,228,237,1) 84%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a752ca",endColorstr="#18e4ed",GradientType=1);
+
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+.eventCard b{
+    font-size: 1em;
+    color: white !important;
+}
+.gapCarousel{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.carouselExampleControls{
+    padding: 1em ;
+    /* height: 24em;    */
+}
+
+/*FORM REGISTRO DE EVENTO*/
+.registerInfoEventForm input{
+    border-bottom: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid ;
+}
+
+/*PAGINA DE STAFF*/
+.glassContainer{
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.staffCard{
+    width: 200px;
+    height: 100px;
+    background: rgb(167,72,202) !important;
+    background: -moz-linear-gradient(45deg, rgba(167,72,202,1) 0%, rgba(24,228,237,1) 100%) !important;
+    background: -webkit-linear-gradient(45deg, rgba(167,72,202,1) 0%, rgba(24,228,237,1) 100%) !important;
+    background: linear-gradient(45deg, rgba(167,72,202,1) 0%, rgba(24,228,237,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a748ca",endColorstr="#18e4ed",GradientType=1);
+    border-radius: 17px;
+    padding: 2px !important;
+    margin: 10px;
+}
+.staffBackground{
+    background: rgb(19,31,51);
+    border-radius: 17px;
+
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h5{
+    text-align: center;
+    background: rgb(167,72,202) !important;
+    background: -moz-linear-gradient(45deg, rgba(167,72,202,1) 0%, rgba(24,228,237,1) 100%) !important;
+    background: -webkit-linear-gradient(45deg, rgba(167,72,202,1) 0%, rgba(24,228,237,1) 100%) !important;
+    background: linear-gradient(45deg, rgba(167,72,202,1) 0%, rgba(24,228,237,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a748ca",endColorstr="#18e4ed",GradientType=1);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+}
+.btnsForm{
+    display: flex;
+    gap: 20px;
+}
+.btn-edit{
+    background: rgb(59,145,237);
+    background: -moz-linear-gradient(90deg, rgba(59,145,237,1) 0%, rgba(24,228,237,0) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(59,145,237,1) 0%, rgba(24,228,237,0) 100%);
+    background: linear-gradient(90deg, rgba(59,145,237,1) 0%, rgba(24,228,237,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b91ed",endColorstr="#18e4ed",GradientType=1);
+}
+.carouselExampleControls{
+    
+}

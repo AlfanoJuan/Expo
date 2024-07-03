@@ -1,0 +1,55 @@
+/*TARGETS*/
+.Targets{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-bottom: 80px;
+  }
+    
+  .target-container img{
+    max-width: 140px;
+  }
+  .numberP{
+    font-size: 2.5em;
+  }
+  .info{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /*--------------------*/
+  progress{
+    width: 500px;
+    -webkit-appearance: none !important;
+  }
+  ::-webkit-progress-bar{
+    background-color: transparent;
+    border-radius: 17px;
+    height: 30px;
+  }
+  ::-webkit-progress-value{
+    background: rgb(154,8,215);
+    background: -moz-linear-gradient(90deg, rgba(154,8,215,1) 4%, rgba(201,47,97,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(154,8,215,1) 4%, rgba(201,47,97,1) 100%);
+    background: linear-gradient(90deg, rgba(154,8,215,1) 4%, rgba(201,47,97,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9a08d7",endColorstr="#c92f61",GradientType=1);
+  }
+  thead{
+    border-bottom-width: 0.25rem;
+    color: snow;
+    /*background-color: black;*/
+    border-color: #c53aff;
+  }
+  tbody {
+    border-bottom-width: 0.05rem;
+    border-color: #c53aff;
+    color: snow;
+    /*background-color: black;*/
+  }
+  tbody, td, tfoot, th, thead, tr {
+    text-align: center;
+    vertical-align: middle;
+ }
